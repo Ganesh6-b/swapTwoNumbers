@@ -1,0 +1,39 @@
+a = 5
+b = 3
+
+#easy way in python is..
+a,b = b,a
+print("a : {}, b : {}".format(a,b))
+
+#2nd way creating a temporary variable
+c = 1
+d = 2
+
+temp = c
+c = d
+d = temp
+print("c : {}, d : {}".format(c,d))
+
+#3rd way.. using addition and subraction
+e = 3
+f = 4
+e = e + f
+f = e - f
+e = e - f
+print("e : {}, f: {}".format(e,f))
+
+#4th way.. using multiplication and division
+g = 3
+h = 4
+g = g + h
+h = g - h
+g = g - h
+print("g : {}, h: {}".format(g,h))
+
+#5th way, using XOR
+i = 1
+j = 2
+i = i ^ j
+j = i ^ j
+i = i ^ j
+print("i : {}, j : {}".format(i,j))
